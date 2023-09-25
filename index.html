@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="stylesheet" href="css/MyCSS.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+      <title>My CSTU Passport Homepage</title>
+      <style>
+         .background{
+            background-image: url(image/MyBG1.jpg);
+         }
+         #switch:checked ~ .background{
+            background-image: url(image/MyBG2.jpg);
+         }
+         .me{
+            background-image: url(image/MyPic1.png);
+         }
+         #switch:checked ~ .me{
+            background-image: url(image/MyPic2.png);
+         }
+      </style>
+   </head>
+   <body>
+      <div>
+         <input type="checkbox" id="switch" hidden>
+         <!-- หัวข้อ -->
+         <h1 class="h11">😎<ins>ข้อมูลนักศึกษา</ins>😁</h1>
+         <div class="background"></div>
+         <div class="me"></div>
+         <div class="up">
+             <!-- ปุ่มกด -->
+            <label for="switch">
+               <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg>
+               <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></svg>
+            </label>
+            <nav class="menu">
+               <a href="https://www.home.co.th">Home</a>
+               <a href="#"class="active">Profile</a>
+               <a href="file:///C:/Users/Kritsada%20Yodsurang/OneDrive%20-%20Thammasat%20University/MyCSTUPassport/html/myAdvisor.html">Advistor</a>
+               <a href="file:///C:/Users/Kritsada%20Yodsurang/OneDrive%20-%20Thammasat%20University/MyCSTUPassport/html/myActivities.html">Activities</a>
+            </nav>
+            <div class="logo">
+               <a href="https://www.facebook.com/Filmcover.Kridsada?locale=th_TH" target="_blank" class="logo1">
+                  <i class="fa-brands fa-facebook" style="color: white;"></i>
+               </a>
+               <a href="https://www.instagram.com/_filmmaker.ps/" target="_blank" class="logo2">
+                  <i class="fa-brands fa-instagram" style="color: white;"></i>
+               </a>
+            </div>   
+          </div>
+         <!-- คลิปวิดีโอ -->
+         <video class="video_mp4" width="350px" height="220px" controls>
+            <source src="VDO/MyVideo.mp4" type="video/mp4">
+         </video>
+         <p class="info">MY INFORMATION</p>
+         <div class="div1">   
+            <!-- ข้อมูลนักศึกษา -->
+            <p><strong><em>ชื่อ-นามสกุล </em></strong>: กฤษดา ยอดสุรางค์ <p>
+            <p><strong><em>ชื่อเล่น </em></strong>: ฟิล์ม </p>
+            <p><strong><em>คณะ </em></strong>: วิทยาศาสตร์และเทคโนโลยี </p>
+            <p><strong><em>สาขา </em></strong>: วิทยาการคอมพิวเตอร์ </p>  
+            <p><strong><em>อีเมล </em></strong> : <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> kritsada.yod@dome.tu.ac.th</a> </p>
+            <p><strong><em>เบอร์โทร </em></strong>: 062-719-8384 </p>   
+            <p><strong><i>งานอดิเรก</i></strong>
+               <ol>
+                  <li>การออกกำลังกายที่ฟิตเนส</li>
+                  <li>เล่นเกม</li>
+                  <li>ฟังเพลง</li>
+               </ol> 
+            </p>
+            <p><strong><em>สีที่ชอบ </em></strong> : สีแดงและน้ำเงิน </p>
+            <p><strong><em>ที่อยู่ </em></strong>: 66/2 ซอยเปรมสมบัติ ประชาสงเคราะห์ 30 <br> เขตดินแดง กรุงเทพมหานครฯ 10400 </p>
+            <p><strong><em>คติประจำใจ </em></strong>: <q>ทำแล้วเสียใจยังดีกว่าเสียใจที่ไม่ได้ทำ</q></p>
+         </div> 
+      </div>
+   </body>
+</html>
