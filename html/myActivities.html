@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyActivities</title>
+    <title>My Activities</title>
     <link rel="stylesheet" href="../css/MyCSS.css">
     <style>
         body{
@@ -30,9 +30,6 @@
     <div>
         <input type="checkbox" id="switch" hidden>
         <!-- หัวข้อ -->
-        <div class="box">
-            <h1 class="h13">กิจกรรมทั้งหมด</h1>
-        </div>
         <div class="background3"></div>
         <div class="me3"></div>
         <div class="up3">
@@ -40,7 +37,7 @@
            <nav class="menu3">
                <a href="https://www.home.co.th">Home</a>
                <a href="file:///C:/Users/Kritsada%20Yodsurang/OneDrive%20-%20Thammasat%20University/MyCSTUPassport/index.html">Profile</a>
-               <a href="file:///C:/Users/Kritsada%20Yodsurang/OneDrive%20-%20Thammasat%20University/MyCSTUPassport/html/myAdvisor.html">Advistor</a>
+               <a href="file:///C:/Users/Kritsada%20Yodsurang/OneDrive%20-%20Thammasat%20University/MyCSTUPassport/html/myAdvisor.html">Advisor</a>
                <a href="#"class="active">Activities</a>
            </nav>
            <div class="logo">
@@ -52,18 +49,42 @@
                </a>
             </div>   
         </div>
-        <div class="Orien1">
-            <p>กิจกรรมปฐมนิเทศ</p>
+        <div class="box1">
+            <p class="p1">กิจกรรมปฐมนิเทศ</p>
+        </div>
+        <section class="container1">
             <a href="file:///C:/Users/Kritsada%20Yodsurang/OneDrive%20-%20Thammasat%20University/MyCSTUPassport/html/orientationDay.html">
-                <img src="../image/MyOrien1.jpg" class="MyOrien1" alt="รูปที่กิจกรรมปฐมนิเทศ">
+                <div class="Orien-wrapper">
+                    <div class="Orien">
+                        <img id="slide1" src="../image/MyOrien1.jpg" class="MyOrien1" alt="รูปที่กิจกรรมปฐมนิเทศ">
+                        <img id="slide2" src="../image/MyOrien3.jpg" class="MyOrien3" alt="รูปที่กิจกรรมปฐมนิเทศ">
+                        <img id="slide3" src="../image/MyOrien7.jpeg" class="MyOrien7" alt="รูปที่กิจกรรมปฐมนิเทศ">
+                   </div>
+                </div>
+                <div class="Orien-nav">
+                   <a class="aO" href="#slide1"></a>
+                   <a class="aO" href="#slide2"></a>
+                   <a class="aO" href="#slide3"></a>
+                </div>
             </a>
+        </section>
+        <div class="box2">
+            <p class="p1">กิจกรรมในเร็วๆนี้</p>
         </div>
-        <div class="Nothing">
-            <p>กิจกรรมจะมาในเร็วๆนี้</p>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <img src="../image/Mycomingsoon.jpg" class="comingsoon" alt="comingsoon">
+        <section class="container2">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                <div class="soon-wrapper">
+                   <div class="soon">
+                        <img id="slide4" src="../image/Mycomingsoon.jpg" class="comingsoon1" alt="comingsoon"> 
+                        <img id="slide5" src="../image/Mycomingsoon2.jpg" class="comingsoon2" alt="comingsoon">
+                    </div>
+                </div>
+                <div class="soon-nav">
+                  <a  class="aN" href="#slide4"></a>
+                  <a  class="aN" href="#slide5"></a>
+                </div>
             </a>
-        </div>
+        </section>
     </div>    
 </body>
 </html>
