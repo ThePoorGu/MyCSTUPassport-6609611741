@@ -14,11 +14,39 @@
             background-image: url(image/MyBG2.jpg);
          }
          .me{
-            background-image: url(image/MyPic1.png);
-         }
+            background-image: url(image/MyPic3.png);
+            }
          #switch:checked ~ .me{
-            background-image: url(image/MyPic2.png);
+            background-image: url(image/MyPic4.png);
          }
+         @media  screen and (min-width: 600px) and (max-width: 768px){
+            .background{
+               background-image: url(image/MyBG1.jpg);
+            }
+            #switch:checked ~ .background{
+               background-image: url(image/MyBG2.jpg);
+            }
+            .me{
+               background-image: url(image/MyPic1.png);
+            }
+            #switch:checked ~ .me{
+               background-image: url(image/MyPic2.png);
+         }
+         }
+         @media  screen and (min-width: 768px) {
+            .background{
+               background-image: url(image/MyBG1.jpg);
+            }
+            #switch:checked ~ .background{
+               background-image: url(image/MyBG2.jpg);
+            }
+            .me{
+               background-image: url(image/MyPic1.png);
+            }
+            #switch:checked ~ .me{
+               background-image: url(image/MyPic2.png);
+            }
+         }   
       </style>
    </head>
    <body>
@@ -37,8 +65,8 @@
             <nav class="menu">
                <a href="https://www.home.co.th">Home</a>
                <a href="#"class="active">Profile</a>
-               <a href="file:///C:/Users/Kritsada%20Yodsurang/OneDrive%20-%20Thammasat%20University/MyCSTUPassport/html/myAdvisor.html">Advisor</a>
-               <a href="file:///C:/Users/Kritsada%20Yodsurang/OneDrive%20-%20Thammasat%20University/MyCSTUPassport/html/myActivities.html">Activities</a>
+               <a href="https://thepoorgu.github.io/MyCSTUPassport-6609611741/html/myAdvisor.html">Advisor</a>
+               <a href="https://thepoorgu.github.io/MyCSTUPassport-6609611741/html/myActivities.html#slide1">Activities</a>
             </nav>
             <div class="logo">
                <a href="https://www.facebook.com/Filmcover.Kridsada?locale=th_TH" target="_blank" class="logo1">
@@ -50,7 +78,7 @@
             </div>   
           </div>
          <!-- คลิปวิดีโอ -->
-         <video class="video_mp4" width="350px" height="220px" controls>
+         <video class="video_mp4" width="350px" height="220px" controls>s
             <source src="VDO/MyVideo.mp4" type="video/mp4">
          </video>
          <p class="info">MY INFORMATION</p>
